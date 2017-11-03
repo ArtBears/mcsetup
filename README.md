@@ -12,7 +12,7 @@ Setup is really simple:
 
 1. Log in to your paperspace machine and type **git clone https://github.com/ArtBears/mcsetup.git**
 2. Then change into the downloaded file with **cd mcsetup**
-3. Then run **./mincraft.sh** and put in your machine password when prompted.
+3. Then run **./minecraft.sh** and put in your machine password when prompted.
 
 Your Server should now be running! You can access it from mincraft using your public IP
 listed on your Paperspace machine description page.
