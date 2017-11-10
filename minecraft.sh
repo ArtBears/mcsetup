@@ -37,7 +37,8 @@ if [ -f /etc/apt/openjdk8.list ] ; then
 else
     sudo touch /etc/apt/openjdk8.list  
     sudo chmod 755 /etc/apt/openjdk8.list 
-    cat $DEB > /etc/apt/openjdk8.list
+    echo $DEB >> /etc/apt/openjdk8.list
+    sudo apt update
 fi
 
 # Install Java if it doesn't already exist on this machine
